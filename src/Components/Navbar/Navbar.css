@@ -1,0 +1,104 @@
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 4rem 15%;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header img{
+    font-size: 3.5rem;    
+    color: var(--main-color);
+    display: none;
+    
+}
+
+.logo{
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+span{
+    background: linear-gradient(270deg, #DF8908 10%, #ff1d15 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.navbar a{
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+.gradientbtn{
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    background: linear-gradient(270deg, #DF8908 10%, #ff1d15 100%);
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3ss ease-in-out;
+    color: white;
+    border: none;
+    text-wrap: nowrap;
+    
+}
+
+.gradientbtn:hover{
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 600px){
+    .header img{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3rem;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-bottom-left-radius: 2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: var(--text-color);
+    }
+    header .active{
+        display: block;
+    }
+    .gradientbtn{
+        display: none;
+    }
+    .navbar.open {
+        display: block; /* Show menu when toggled */
+      }
+}

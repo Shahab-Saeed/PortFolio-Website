@@ -1,0 +1,44 @@
+:root{
+    --bg-color:#080808;
+    --second-bg-color:#101010;
+    --text-color:white;
+    --main-color:#ea580c;
+
+}
+
+.footer{
+    background-color: var(--second-bg-color);
+    padding: 50px 0;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer .socialicons{
+    text-align: center;
+}
+
+.footer ul{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.footer ul li a:hover{
+    border-bottom: 3px solid var(--main-color);
+}
+
+.footer .copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+}
