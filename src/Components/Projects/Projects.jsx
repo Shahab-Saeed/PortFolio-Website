@@ -1,6 +1,8 @@
 import React from 'react'
 import './Projects.css'
+
 import { assets } from '../../assets/Assets'
+import Project1 from './Project1'
 const Projects = () => {
     
   return (
@@ -9,46 +11,10 @@ const Projects = () => {
       <section className="projects" id="projects">
         <h2 className="heading">Projects</h2>
         <div className="projects-box">
-            <div className="project-card">
-                <img src={assets.profilepic} alt="" />
-                <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis inventore sint ipsam. Autem dolor perspiciatis amet adipisci eos eveniet voluptatibus corporis explicabo nostrum, ea similique nesciunt cumque officia! Quibusdam facere laudantium similique?</p>
-                <div className="btn">
-                    Review Project
-                </div>
-            </div>
-            <div className="project-card">
-                <img src={assets.profilepic} alt="" />
-                <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis inventore sint ipsam. Autem dolor perspiciatis amet adipisci eos eveniet voluptatibus corporis explicabo nostrum, ea similique nesciunt cumque officia! Quibusdam facere laudantium similique?</p>
-                <div className="btn">
-                    Review Project
-                </div>
-            </div>
-            <div className="project-card">
-                <img src={assets.profilepic} alt="" />
-                <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis inventore sint ipsam. Autem dolor perspiciatis amet adipisci eos eveniet voluptatibus corporis explicabo nostrum, ea similique nesciunt cumque officia! Quibusdam facere laudantium similique?</p>
-                <div className="btn">
-                    Review Project
-                </div>
-            </div>
-            <div className="project-card">
-                <img src={assets.profilepic} alt="" />
-                <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis inventore sint ipsam. Autem dolor perspiciatis amet adipisci eos eveniet voluptatibus corporis explicabo nostrum, ea similique nesciunt cumque officia! Quibusdam facere laudantium similique?</p>
-                <div className="btn">
-                    Review Project
-                </div>
-            </div>
-            <div className="project-card">
-                <img src={assets.profilepic} alt="" />
-                <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis inventore sint ipsam. Autem dolor perspiciatis amet adipisci eos eveniet voluptatibus corporis explicabo nostrum, ea similique nesciunt cumque officia! Quibusdam facere laudantium similique?</p>
-                <div className="btn">
-                    Review Project
-                </div>
-            </div>
+          <Project1 profile_pic={assets.profilepic} projectname={"esehe"} projectdetail={"hy this is sameul"}/>
+       
+   
+        
         </div>
       </section>
     </div>
