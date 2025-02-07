@@ -11,7 +11,7 @@ const Projects = () => {
       <section className="projects" id="projects">
         <h2 className="heading">Projects</h2>
         <div className="projects-box">
-          <Project1 profile_pic={assets.profilepic} projectname={"esehe"} projectdetail={"hy this is sameul"}/>
+          <Project1 profile_pic={assets.DarkModeEnabler} projectname={Dark Mode Enabler} projectdetail={"Hy! I have created this dark mode enabler using React js, it's portable you can also use it in your projects "}/>
        
    
         
