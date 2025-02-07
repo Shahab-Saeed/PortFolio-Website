@@ -20,15 +20,18 @@
     border: 2px solid var(--main-color);
     border-radius: 3rem;
     gap: 1rem;
-    padding: 5px 5px;
+    padding: 25px 15px;
     overflow: hidden;
     cursor: pointer;
     box-shadow: 0 0 5px var(--main-color);
     transition: 0.3s ease;
     width: 350px;
+
     
     
 }
+
+
 
 .project-card:hover {
     box-shadow: 0 0 25px var(--main-color),
@@ -36,11 +39,15 @@
     transform: scale(1.02);
 }
 
+
+
 .project-card img{
     margin-top: 5px;
+    margin: auto;
     max-width: 200px;
     border-radius: 2em;
     object-fit: cover;
+ 
 }
 
 .project-card h3{
@@ -48,7 +55,7 @@
 }
 
 .project-card p{
-    font-size: 1.05rem;
+    font-size: 18px;
     margin-bottom: 3px;
 }
 
