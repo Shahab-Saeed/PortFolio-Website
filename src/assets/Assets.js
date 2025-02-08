@@ -5,6 +5,8 @@ import linkedin_icon from '../assets/linkedin-box-fill.png'
 import twitter_icon from '../assets/twitter-fill.png'
 import profilepic from '../assets/aaa.jpg'
 import DarkModeEnabler from '../assets/Dark-Mode-Enabler.png'
+import PasswordToggler from '../assets/PasswordToggler.png'
+import AgeCalculatorApp from '../assets/AgeCalculatorApp.png'
 export const assets={
     menu_icon,
     github_icon,
@@ -12,5 +14,7 @@ export const assets={
     linkedin_icon,
     twitter_icon,
     profilepic,
-    DarkModeEnabler
+    DarkModeEnabler,
+    PasswordToggler,
+    AgeCalculatorApp
 }

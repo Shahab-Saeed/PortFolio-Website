@@ -19,13 +19,14 @@
     background-color: var(--bg-color);
     border: 2px solid var(--main-color);
     border-radius: 3rem;
-    gap: 1rem;
+    /* gap: 2rem; */
     padding: 25px 15px;
     overflow: hidden;
     cursor: pointer;
     box-shadow: 0 0 5px var(--main-color);
     transition: 0.3s ease;
     width: 350px;
+    height: 450px;
 
     
     
@@ -42,11 +43,12 @@
 
 
 .project-card img{
-    margin-top: 5px;
+    margin-top: 7px;
     margin: auto;
     max-width: 200px;
     border-radius: 2em;
     object-fit: cover;
+    height: 150px;
  
 }
 
@@ -61,12 +63,13 @@
 
 .project-card .btn{
     margin-bottom: 7px;
+    padding-bottom: 7px;
 }
 
 @media only screen and (max-width: 1040px){
     .project-card{
         width: 290px;
     }
- 
+  
 }
 
