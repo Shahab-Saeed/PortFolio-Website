@@ -8,6 +8,7 @@ import DarkModeEnabler from '../assets/Dark-Mode-Enabler.png'
 import PasswordToggler from '../assets/PasswordToggler.png'
 import AgeCalculatorApp from '../assets/AgeCalculatorApp.png'
 import ClockApp from '../assets/ClockApp.png'
+import RandomPassGen from '../assets/RandomPassGen.png'
 export const assets={
     menu_icon,
     github_icon,
@@ -18,5 +19,6 @@ export const assets={
     DarkModeEnabler,
     PasswordToggler,
     AgeCalculatorApp,
-    ClockApp
+    ClockApp,
+    RandomPassGen
 }

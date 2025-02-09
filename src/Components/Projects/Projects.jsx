@@ -7,7 +7,7 @@ const Projects = () => {
     
   return (
     
-    <div>
+    <div> 
       <section className="projects" id="projects">
         <h2 className="heading">Projects</h2>
         <div className="projects-box">
@@ -20,6 +20,8 @@ const Projects = () => {
           <Project1 profile_pic={assets.AgeCalculatorApp} projectname={"Age Calculator App"} projectdetail={"Hy! I have created this Age Calculator App  using React js, it's portable you can also use it in your projects which helps you to see Your age. you can also use it to your code. "} projectlink="https://age-calculator-react-ss.netlify.app"/>
           
           <Project1 profile_pic={assets.ClockApp} projectname={"Digital Clock App"} projectdetail={"Hy! I have created this Digital Clock App  using React js, it's portable you can also use it in your projects which helps you to see Your age. you can also use it to your code. "} projectlink="https://clock-app-react-ss.netlify.app"/>
+          
+          <Project1 profile_pic={assets.RandomPassGen} projectname={"random Password Generator App"} projectdetail={"Hy! I have created this Random Password Generator App  using React js, it's portable you can also use it in your projects which helps you to see Your age. you can also use it to your code. "} projectlink="https://rpgars.netlify.app"/>
        
           
    
