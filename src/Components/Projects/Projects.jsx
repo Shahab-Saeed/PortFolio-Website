@@ -21,7 +21,7 @@ const Projects = () => {
           
           <Project1 profile_pic={assets.ClockApp} projectname={"Digital Clock App"} projectdetail={"Hy! I have created this Digital Clock App  using React js, it's portable you can also use it in your projects which helps you to see Your age. you can also use it to your code. "} projectlink="https://clock-app-react-ss.netlify.app"/>
           
-          <Project1 profile_pic={assets.RandomPassGen} projectname={"random Password Generator App"} projectdetail={"Hy! I have created this Random Password Generator App  using React js, it's portable you can also use it in your projects which helps you to see Your age. you can also use it to your code. "} projectlink="https://rpgars.netlify.app"/>
+          <Project1 profile_pic={assets.RandomPassGen} projectname={"Random Password Generator App"} projectdetail={"Hy! I have created this Random Password Generator App  using React js, it's portable you can also use it in your projects which helps you to generate random passwords"} projectlink="https://rpgars.netlify.app"/>
        
           
    
