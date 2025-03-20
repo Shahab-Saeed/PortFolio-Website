@@ -1,5 +1,4 @@
-
-.header{
+.header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -13,14 +12,14 @@
     z-index: 1000;
 }
 
-header img{
-    font-size: 3.5rem;    
+header img {
+    font-size: 3.5rem;
     color: var(--main-color);
     display: none;
-    
+
 }
 
-.logo{
+.logo {
     font-size: 3rem;
     color: var(--text-color);
     font-weight: 800;
@@ -28,17 +27,17 @@ header img{
     transition: 0.3s ease-in-out;
 }
 
-.logo:hover{
+.logo:hover {
     transform: scale(1.1);
 }
 
-span{
+span {
     background: linear-gradient(270deg, #DF8908 10%, #ff1d15 100%);
     background-clip: text;
     color: transparent;
 }
 
-.navbar a{
+.navbar a {
     font-size: 1.8rem;
     color: var(--text-color);
     margin-left: 4rem;
@@ -47,12 +46,12 @@ span{
     border-bottom: 3px solid transparent;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
 }
 
-.gradientbtn{
+.gradientbtn {
     font-size: 1.8rem;
     padding: 1rem 2rem;
     border-radius: 3rem;
@@ -63,18 +62,46 @@ span{
     color: white;
     border: none;
     text-wrap: nowrap;
-    
+
+
 }
 
-.gradientbtn:hover{
+.gradientbtn:hover {
     transform: scale(1.05);
 }
 
-@media only screen and (max-width: 600px){
-    .header img{
+@media only screen and (max-width: 1150px) {
+    .logo {
+        font-size: 2.5rem;
+
+    }
+
+    .gradientbtn {
+        font-size: 1.6rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .header {
+
+        padding: 4rem 8%;
+
+    }
+
+    .navbar a {
+        font-size: 1.8rem;
+        margin-left: 3rem;
+      
+    }
+
+
+}
+
+@media only screen and (max-width: 750px) {
+    .header img {
         display: block;
     }
-    .navbar{
+
+    .navbar {
         position: absolute;
         top: 100%;
         right: 0;
@@ -86,19 +113,25 @@ span{
         border-bottom: 2px solid var(--main-color);
         display: none;
     }
-    .navbar a{
+
+    .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
         color: var(--text-color);
     }
-    header .active{
+
+    header .active {
         display: block;
     }
-    .gradientbtn{
+
+    .gradientbtn {
+
         display: none;
     }
+
     .navbar.open {
-        display: block; /* Show menu when toggled */
-      }
+        display: block;
+        /* Show menu when toggled */
+    }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { assets } from "../../assets/Assets";
+import { assets } from "../../assets/Assets"; 
 const Home = () => {
   return (
     <div>
@@ -13,11 +13,7 @@ const Home = () => {
             I am a <span>Software and Web Developer</span>
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quae
-            exercitationem, aliquid ipsam explicabo dignissimos beatae
-            voluptates est doloribus nisi quidem, at dolorem nam odio delectus
-            sit quas esse, perferendis rerum neque obcaecati quos minus! Debitis
-            perferendis reiciendis nisi commodi totam blanditiis facere, ex eos?
+          Welcome! I'm  a versatile digital creator with a passion for crafting compelling content and developing innovative web experiences. My technical expertise spans across front-end development with React and in-depth knowledge of SQL databases like MySQL and PostgreSQL for Database Administration. I have successfully built many dynamic React-based website.
           </p>
 
           <div className="socialicons">

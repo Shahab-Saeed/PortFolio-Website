@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <header className="header">
-      <a href="#home" className="logo">
+      <a href="#home" className="logo" >
         Shahab<span> Saeed</span>
       </a>
 
@@ -28,7 +28,7 @@ const Navbar = () => {
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
       </nav>
 
       <button className="gradientbtn">Contact Me</button>
