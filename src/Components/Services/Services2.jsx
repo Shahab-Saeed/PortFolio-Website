@@ -1,16 +1,13 @@
 import React from "react";
 import "./Services2.css";
-const Services2 = (prompts) => {
+const Services2 = (props) => {
   return (
     <div>
       <div className="service-box">
         <div className="service-info">
-          <h4>front End</h4>
+          <h4>{props.heading}</h4>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam at
-            cupiditate eum rem inventore in, asperiores vitae repellat nihil
-            beatae, dicta quia possimus iste. Nihil repellat quae ducimus
-            laudantium delectus impedit? Reprehenderit.
+            {props.para}
           </p>
         </div>
       </div>
@@ -18,4 +15,4 @@ const Services2 = (prompts) => {
   );
 };
 
-export default Services2;
+export default Services2; 

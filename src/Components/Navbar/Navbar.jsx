@@ -9,7 +9,7 @@ const Navbar = () => {
     setToggle(!toggle);
   };
 
-  return (
+  return ( 
     <header className="header">
       <a href="#home" className="logo" >
         Shahab<span> Saeed</span>
@@ -31,7 +31,7 @@ const Navbar = () => {
         <a href="#projects">Projects</a>
       </nav>
 
-      <button className="gradientbtn">Contact Me</button>
+      <a href="#contact" className="gradientbtn">Contact Me</a> 
     </header>
   );
 };

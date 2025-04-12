@@ -3,13 +3,13 @@ import "./Home.css";
 import { assets } from "../../assets/Assets"; 
 const Home = () => {
   return (
-    <div>
+    <div> 
       <section className="home" id="home">
         <div className="home-content">
           <h1>
             Hi, This Is <span>Shahab Saeed</span>
           </h1>
-          <h3>
+          <h3> 
             I am a <span>Software and Web Developer</span>
           </h3>
           <p>
@@ -17,21 +17,21 @@ const Home = () => {
           </p>
 
           <div className="socialicons">
-          <a href="#">
+          <a href="https://github.com/Shahab-Saeed" target="blank">
             <img src={assets.github_icon} className="bx" />
           </a>
 
-          <a href="#">
+          <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="blank">
             <img src={assets.linkedin_icon} className="bx" />
           </a>
 
-          <a href="#">
+          <a href="https://www.instagram.com/shahab__saeed/" target="blank">
             <img src={assets.instagram_icon} className="bx" />
           </a>
 
-          <a href="#">
+          {/* <a href="#" target="blank">
             <img src={assets.twitter_icon} className="bx" />
-          </a>
+          </a> */}
           </div>
             <div className="btn-group">
                 <a href="#" className="btn">Hire</a>
