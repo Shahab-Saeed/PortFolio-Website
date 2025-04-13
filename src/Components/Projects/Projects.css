@@ -8,6 +8,12 @@
 
 .projects {
     background-color: var(--second-bg-color);
+
+}
+.projects .mainproject{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .projects-box {

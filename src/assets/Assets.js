@@ -45,6 +45,8 @@ import fourty1 from '../assets/fourty1.png'
 import fourty2 from '../assets/fourty2.png'
 import fourty3 from '../assets/fourty3.png'
 import fourty4 from '../assets/fourty4.png'
+import html from '../assets/html5-fill.png'
+
 // import fourty5 from '../assets/fourty5.png'
 // import fourty6 from '../assets/fourty6.png'
 // import fourty7 from '../assets/fourty7.png'
@@ -98,6 +100,7 @@ export const assets = {
   fourty2,
   fourty3,
   fourty4,
+  html,
   // fourty5,
   // fourty6,
   // fourty7,

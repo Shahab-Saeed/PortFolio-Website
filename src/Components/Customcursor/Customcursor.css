@@ -1,0 +1,31 @@
+:root{
+    --bg-color:#080808;
+    --second-bg-color:#101010;
+    --text-color:white;
+    --main-color:#ea580c;
+
+}
+
+.cursor-dot{
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+}
+.cursor-outline{
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+}
+
+.cursor-dot,.cursor-outline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}

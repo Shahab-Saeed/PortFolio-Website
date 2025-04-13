@@ -3,16 +3,23 @@ import './Projects.css'
 
 import { assets } from '../../assets/Assets'
 import Project1 from './Project1'
+import Projectscategory from './Projectscategory'
 const Projects = () => {
-    
-  return (
+
+  return ( 
     
     <div> 
       <section className="projects" id="projects">
         <h2 className="heading">Projects</h2>
-        <div className="projects-box">
+        <div className="mainproject">
+        <Projectscategory heading={"FRONT END PROJECTS"} para={"Madeup of HTML, CSS, JS, Bootstrap, Tailwind CSS, Material UI, GSAP, REACT, Next.js"} />
+        <Projectscategory heading={"JAVA PROJECTS"} para={"Madeup of HTML, CSS, JS, Bootstrap, Tailwind CSS, Material UI, GSAP, REACT, Next.js"}/>
+        <Projectscategory heading={"DATABASE PROJECTS"} para={"Madeup of HTML, CSS, JS, Bootstrap, Tailwind CSS, Material UI, GSAP, REACT, Next.js"}/>
+        </div>
+   
+         {/* <div className="projects-box">
         
-        
+          
           <Project1 profile_pic={assets.PasswordToggler} projectname={"Password Toggler"} projectdetail={"Hy! I have created this Password Toggler using React js, it's portable you can also use it in your projects which helps you to show or hide password and it's fully portable, you can also use it to your code."} projectlink="https://password-toggler-ss.netlify.app"/>
        
           <Project1 profile_pic={assets.DarkModeEnabler} projectname={"Dark Mode Enabler"} projectdetail={"Hy! I have created this dark mode enabler using React js, it's portable you can also use it in your projects which helps you to see better in black Resolutions. you can also use it to your code. "} projectlink="https://dark-mode-enabler-by-ss.netlify.app"/>
@@ -110,19 +117,18 @@ const Projects = () => {
           <Project1 profile_pic={assets.fourty4} projectname={"Discord Clone App"} projectdetail={"Hy! I have created this Discord Clone App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"} projectlink="https://disscoord.netlify.app"/>
    
           
-          {/* <Project1 profile_pic={assets.fourty5} projectname={"Music App"} projectdetail={"Hy! I have created this Music App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"} projectlink="https://beatsia.netlify.app"/> */}
+          <Project1 profile_pic={assets.fourty5} projectname={"Music App"} projectdetail={"Hy! I have created this Music App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"} projectlink="https://beatsia.netlify.app"/>
    
           
-          {/* <Project1 profile_pic={assets.fourty6} projectname={"Music App"} projectdetail={"Hy! I have created this Music App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"} projectlink="https://beatsia.netlify.app"/> */}
+          <Project1 profile_pic={assets.fourty6} projectname={"Music App"} projectdetail={"Hy! I have created this Music App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"} projectlink="https://beatsia.netlify.app"/>
    
           
-          {/* <Project1 profile_pic={assets.fourty7} projectname={"Music App"} projectdetail={"Hy! I have created this Music App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"} projectlink="https://beatsia.netlify.app"/> */}
+          <Project1 profile_pic={assets.fourty7} projectname={"Music App"} projectdetail={"Hy! I have created this Music App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"} projectlink="https://beatsia.netlify.app"/>
    
           
-          {/* <Project1 profile_pic={assets.fourty8} projectname={"Music App"} projectdetail={"Hy! I have created this Music App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"} projectlink="https://beatsia.netlify.app"/> */}
+          <Project1 profile_pic={assets.fourty8} projectname={"Music App"} projectdetail={"Hy! I have created this Music App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"} projectlink="https://beatsia.netlify.app"/>
    
-        
-        </div>
+          </div> */}
       </section>
     </div>
   )

@@ -7,21 +7,19 @@ const Footer = () => {
       <footer className="footer">
         
       <div className="socialicons">
-          <a href="#">
+          <a href="https://github.com/Shahab-Saeed" target='blank'>
             <img src={assets.github_icon} className="bx" />
           </a>
 
-          <a href="#">
+          <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target='blank'>
             <img src={assets.linkedin_icon} className="bx" />
           </a>
 
-          <a href="#">
+          <a href="https://www.instagram.com/shahab__saeed/" target='blank'>
             <img src={assets.instagram_icon} className="bx" />
           </a>
 
-          <a href="#">
-            <img src={assets.twitter_icon} className="bx" />
-          </a>
+         
           </div>
           <ul className="list">
             <li><a href="#">FAQ</a></li>
