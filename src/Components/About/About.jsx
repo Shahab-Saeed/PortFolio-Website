@@ -1,10 +1,13 @@
 import React from 'react'
 import './About.css' 
 import { assets } from '../../assets/Assets'
+
 const About = () => {
+  
   return (
     <div>
-       <section className="about" id="about">
+
+    <section className="about" id="about">
         <div className="about-img"> 
             <img src={assets.profilepic} alt="" />
         </div>

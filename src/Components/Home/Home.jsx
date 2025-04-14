@@ -1,8 +1,10 @@
 import React from "react";
 import "./Home.css";
 import { assets } from "../../assets/Assets"; 
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
+    
     <div> 
       <section className="home" id="home">
         <div className="home-content">

@@ -23,8 +23,8 @@ header img {
     font-size: 3rem;
     color: var(--text-color);
     font-weight: 800;
-    cursor: pointer;
     transition: 0.3s ease-in-out;
+    cursor: none;
 }
 
 .logo:hover {
@@ -63,8 +63,8 @@ span {
     border: none;
     text-wrap: nowrap;
 
-
 }
+
 
 .gradientbtn:hover {
     transform: scale(1.05);

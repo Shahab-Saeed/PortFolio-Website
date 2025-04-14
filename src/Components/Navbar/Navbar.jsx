@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { assets } from "../../assets/Assets";
 
-const Navbar = () => {
+const Navbar = (props) => {
+
+
   const [toggle, setToggle] = useState(false);
 
   const toggleMenu = () => {
@@ -10,10 +12,10 @@ const Navbar = () => {
   };
 
   return ( 
-    <header className="header">
+    <header className="header" >
       <a href="#home" className="logo" >
         Shahab<span> Saeed</span>
-      </a>
+      </a> 
 
       {/* Hamburger Icon */}
       <img
@@ -25,10 +27,10 @@ const Navbar = () => {
 
       {/* Navigation Menu */}
       <nav className={`navbar ${toggle ? "open" : ""}`}>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
+        <a href="#home" onClick={()=>{props.setsetprojectcategory(false)}}>Home</a>
+        <a href="#about" onClick={()=>{props.setsetprojectcategory(false)}}>About</a>
+        <a href="#services" onClick={()=>{props.setsetprojectcategory(false)}}>Services</a>
+        <a href="#projects" onClick={()=>{props.setsetprojectcategory(false)}}>Projects</a>
       </nav>
 
       <a href="#contact" className="gradientbtn">Contact Me</a> 

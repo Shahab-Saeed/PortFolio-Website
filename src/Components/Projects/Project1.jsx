@@ -11,7 +11,7 @@ const Project1 = (prompts) => {
                 <p>{prompts.projectdetail}</p>
                 <span className="btnspan">
                 <div className="btn">
-                   <a href={prompts.projectlink} target="_blank"> Review Project</a>
+                   <a href={prompts.projectlink} target="blank"> Review Project</a>
                 </div>
                 </span>
             </div>

@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import './Contact.css'
+
+
 const Contact = () => {
  
   
@@ -28,6 +30,7 @@ const Contact = () => {
     }
   };
   return (
+
     <div>
       <section className="contact" id="contact">
         <h2 className="heading">Contact <span>Me</span></h2>

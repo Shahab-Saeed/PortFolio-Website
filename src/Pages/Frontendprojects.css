@@ -1,0 +1,24 @@
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #101010;
+    --text-color: white;
+    --main-color: #ea580c;
+
+}
+
+
+.frontendprojects{
+    padding-top: 15rem;
+}
+
+.frontendprojects h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.frontendprojects h1:hover{
+    transform: scale(1.05);
+    color: var(--main-color);
+}
