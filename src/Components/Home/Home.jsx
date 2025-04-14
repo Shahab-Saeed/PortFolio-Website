@@ -36,7 +36,7 @@ const Home = () => {
           </a> */}
           </div>
             <div className="btn-group">
-                <a href="#" className="btn">Hire</a>
+                <a href="https://www.linkedin.com/in/shahab-saeed-596204343/" target="_blank" className="btn">Hire</a>
                 <a href="#contact" className="btn">Contact</a>
             </div>
         </div>

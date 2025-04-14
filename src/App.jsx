@@ -12,16 +12,20 @@ import Customcursor from "./Components/Customcursor/Customcursor";
 import { Route, Routes } from "react-router-dom";
 import Frontendprojects from "./Pages/Frontendprojects";
 const App = () => {
-  const [setprojectcategory, setsetprojectcategory] = useState(true)
+  const [setprojectcategory, setsetprojectcategory] = useState(false)
   return (
     <div>
       <Customcursor />
       <Navbar setprojectcategory={setprojectcategory}  setsetprojectcategory={setsetprojectcategory}/>
+      {/* <Routes>
+        <Route path="/frontendprojects" element={<Frontendprojects/>} />
+        <Route path="/" element={<Home/>} />
+      </Routes> */}
       {setprojectcategory ? "": <Home />}
       {setprojectcategory ? "": <About />}
       {setprojectcategory ? "": <Services />}
-      {setprojectcategory ? "": <Projects />}
-      {setprojectcategory ? <Frontendprojects setprojectcategory={setprojectcategory}  setsetprojectcategory={setsetprojectcategory} />: ""}
+      {setprojectcategory ? "": <Projects setprojectcategory={setprojectcategory}  setsetprojectcategory={setsetprojectcategory} />}
+      {setprojectcategory ? <Frontendprojects />: ""}
       {setprojectcategory ? "": <Contact />}
       {setprojectcategory ? "": <Footer />}
       

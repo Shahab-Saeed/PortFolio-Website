@@ -15,7 +15,7 @@ const Navbar = (props) => {
     <header className="header" >
       <a href="#home" className="logo" >
         Shahab<span> Saeed</span>
-      </a> 
+      </a>
 
       {/* Hamburger Icon */}
       <img

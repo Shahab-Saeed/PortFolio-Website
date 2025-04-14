@@ -2,9 +2,8 @@ import React from "react";
 import "./Projects.css";
 
 import Projectscategory from "./Projectscategory";
-import { Link } from "react-router-dom";
-import { useState } from "react";
-const Projects = () => {
+
+const Projects = (props) => {
 
   return (
     <div>
@@ -13,7 +12,7 @@ const Projects = () => {
         <div className="mainproject">
       
     
-        <div >
+        <div onClick={(e)=>{props.setsetprojectcategory(true); e.preventDefault()}}>
         <Projectscategory 
               heading={"FRONT END PROJECTS"}
               para={

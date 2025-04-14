@@ -2,7 +2,7 @@ import React from "react";
 import "./Frontendprojects.css";
 import Project1 from "../Components/Projects/Project1";
 import { assets } from "../assets/Assets";
-const Frontendprojects = (props) => {
+const Frontendprojects = () => {
   return (
     <div className="frontendprojects">
       <h1>Front End Projects</h1>

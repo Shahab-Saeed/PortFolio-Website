@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Projectscategory = (props) => {
     
   return (
-    <a href="/Frontendprojects" target="_blnk">
+    <a href="/Frontendprojects" >
      <div className="projectcategory">
         <div className="service-box">
         <div className="service-info">
