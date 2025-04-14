@@ -33,7 +33,7 @@ const Navbar = (props) => {
         <a href="#projects" onClick={()=>{props.setsetprojectcategory(false)}}>Projects</a>
       </nav>
 
-      <a href="#contact" className="gradientbtn">Contact Me</a> 
+      <a href="#contact" className="gradientbtn" onClick={()=>{props.setsetprojectcategory(false)}}>Contact Me</a> 
     </header>
   );
 };
