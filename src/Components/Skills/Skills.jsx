@@ -53,7 +53,7 @@ const Skills = () => {
   return (
 
 
-    <div className="cards">
+    <div className="cards" id="skills">
       <h1 className="heading">Skills</h1>
       <div className="slider-container">
         <Slider {...settings}>
@@ -63,8 +63,9 @@ const Skills = () => {
           </div>
           <div className={`card ${activeIndex === 0 ? "active" : ""}`}>
             <img src={assets.jsicon} alt="" />
-            <h1>Java SCript</h1>
+            <h1>Java Script</h1>
           </div>
+         
           <div className={`card ${activeIndex === 0 ? "active" : ""}`}>
             <img src={assets.mysqlicon} alt="" />
             <h1>MySql</h1>
@@ -78,12 +79,24 @@ const Skills = () => {
             <h1>Postgre SQl</h1>
           </div>
           <div className={`card ${activeIndex === 0 ? "active" : ""}`}>
+            <img src={assets.react} alt="" />
+            <h1>React Js</h1>
+          </div>
+          <div className={`card ${activeIndex === 0 ? "active" : ""}`}>
             <img src={assets.gsapicon} alt="" />
             <h1>Gsap</h1>
           </div>
           <div className={`card ${activeIndex === 0 ? "active" : ""}`}>
             <img src={assets.materialuilogo} alt="" />
             <h1>Material UI</h1>
+          </div>
+          <div className={`card ${activeIndex === 0 ? "active" : ""}`}>
+            <img src={assets.reactslick} alt="" />
+            <h1>SLick Slider JS</h1>
+          </div>
+          <div className={`card small ${activeIndex === 0 ? "active" : ""}`}>
+            <img src={assets.swiper} alt="" />
+            <h1>Swiper JS</h1>
           </div>
           <div className={`card ${activeIndex === 0 ? "active" : ""}`}>
             <img src={assets.bootstrapicon} alt="" />
@@ -105,6 +118,10 @@ const Skills = () => {
           <div className={`card ${activeIndex === 0 ? "active" : ""}`}>
             <img src={assets.giticon} alt="" />
             <h1>Git Hub</h1>
+          </div>
+          <div className={`card ${activeIndex === 0 ? "active" : ""}`}>
+            <img src={assets.python} alt="" />
+            <h1>Python</h1>
           </div>
         </Slider>
       </div>

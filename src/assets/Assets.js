@@ -45,13 +45,18 @@ import fourty1 from "../assets/fourty1.png";
 import fourty2 from "../assets/fourty2.png";
 import fourty3 from "../assets/fourty3.png";
 import fourty4 from "../assets/fourty4.png";
-import html from "../assets/html5-fill.png";
+import html from "../assets/download (1).png";
+import python from "../assets/download (2).png";
 
 import javasvg from "../assets/java-brands.svg";
 import jsicon from "../assets/js-brands.svg"
-import bootstrapicon from "../assets/bootstrap-fill.png"
-import cssicon from "../assets/css3-fill.png"
-import tailwindicon from "../assets/tailwind-css-fill.png"
+import bootstrapicon from "../assets/5968680.png"
+import cssicon from "../assets/download (3).png"
+import tailwindicon from "../assets/download.png"
+import react from "../assets/react.png"
+import swiper from "../assets/social.png"
+import reactslick from "../assets/slick.png"
+
 import gsapicon from "../assets/gsap.png"
 import mongodbicon from "../assets/mongodb.png"
 import mysqlicon from "../assets/mysql.png"
@@ -59,7 +64,7 @@ import postgreicon from "../assets/postgresql.png"
 import materialuilogo from "../assets/material-ui-logo-black-and-white.png"
 import giticon from "../assets/github.jpg"
 export const assets = {javasvg,jsicon,bootstrapicon,cssicon,tailwindicon,gsapicon,mongodbicon,mysqlicon,postgreicon,materialuilogo,
-  menu_icon,giticon,
+  menu_icon,giticon,python,react,swiper,reactslick,
   github_icon,
   instagram_icon,
   linkedin_icon,

@@ -63,6 +63,10 @@
   
    
 }
+
+.small img{
+  width: 140px;
+}
 .card h1{
     width: 200px;
 }
