@@ -19,41 +19,47 @@ import fifteen from "../assets/fifteen.png";
 import sixteen from "../assets/sixteen.png";
 import seventeen from "../assets/seventeen.png";
 import eighteen from "../assets/eighteen.png";
-import nighnteen from '../assets/nighnteen.png'
-import twenty from '../assets/twenty.png'
-import twenty1 from '../assets/twenty1.png'
-import twenty2 from '../assets/twenty2.png'
-import twenty3 from '../assets/twenty3.png'
-import twenty4 from '../assets/twenty4.png'
-import twenty5 from '../assets/twenty5.png'
-import twenty6 from '../assets/twenty6.png'
-import twenty7 from '../assets/twenty7.png'
-import twenty8 from '../assets/twenty8.png'
-import twenty9 from '../assets/twenty9.png'
-import thirty from '../assets/thirty.png'
-import thirty1 from '../assets/thirty1.png'
-import thirty2 from '../assets/thirty2.png'
-import thirty3 from '../assets/thirty3.png'
-import thirty4 from '../assets/thirty4.png'
-import thirty5 from '../assets/thirty5.png'
-import thirty6 from '../assets/thirty6.png'
-import thirty7 from '../assets/thirty7.png'
-import thirty8 from '../assets/thirty8.png'
-import thirty9 from '../assets/thirty9.png'
-import fourty from '../assets/fourty.png'
-import fourty1 from '../assets/fourty1.png'
-import fourty2 from '../assets/fourty2.png'
-import fourty3 from '../assets/fourty3.png'
-import fourty4 from '../assets/fourty4.png'
-import html from '../assets/html5-fill.png'
+import nighnteen from "../assets/nighnteen.png";
+import twenty from "../assets/twenty.png";
+import twenty1 from "../assets/twenty1.png";
+import twenty2 from "../assets/twenty2.png";
+import twenty3 from "../assets/twenty3.png";
+import twenty4 from "../assets/twenty4.png";
+import twenty5 from "../assets/twenty5.png";
+import twenty6 from "../assets/twenty6.png";
+import twenty7 from "../assets/twenty7.png";
+import twenty8 from "../assets/twenty8.png";
+import twenty9 from "../assets/twenty9.png";
+import thirty from "../assets/thirty.png";
+import thirty1 from "../assets/thirty1.png";
+import thirty2 from "../assets/thirty2.png";
+import thirty3 from "../assets/thirty3.png";
+import thirty4 from "../assets/thirty4.png";
+import thirty5 from "../assets/thirty5.png";
+import thirty6 from "../assets/thirty6.png";
+import thirty7 from "../assets/thirty7.png";
+import thirty8 from "../assets/thirty8.png";
+import thirty9 from "../assets/thirty9.png";
+import fourty from "../assets/fourty.png";
+import fourty1 from "../assets/fourty1.png";
+import fourty2 from "../assets/fourty2.png";
+import fourty3 from "../assets/fourty3.png";
+import fourty4 from "../assets/fourty4.png";
+import html from "../assets/html5-fill.png";
 
-// import fourty5 from '../assets/fourty5.png'
-// import fourty6 from '../assets/fourty6.png'
-// import fourty7 from '../assets/fourty7.png'
-// import fourty8 from '../assets/fourty8.png'
-
-export const assets = {
-  menu_icon,
+import javasvg from "../assets/java-brands.svg";
+import jsicon from "../assets/js-brands.svg"
+import bootstrapicon from "../assets/bootstrap-fill.png"
+import cssicon from "../assets/css3-fill.png"
+import tailwindicon from "../assets/tailwind-css-fill.png"
+import gsapicon from "../assets/gsap.png"
+import mongodbicon from "../assets/mongodb.png"
+import mysqlicon from "../assets/mysql.png"
+import postgreicon from "../assets/postgresql.png"
+import materialuilogo from "../assets/material-ui-logo-black-and-white.png"
+import giticon from "../assets/github.jpg"
+export const assets = {javasvg,jsicon,bootstrapicon,cssicon,tailwindicon,gsapicon,mongodbicon,mysqlicon,postgreicon,materialuilogo,
+  menu_icon,giticon,
   github_icon,
   instagram_icon,
   linkedin_icon,
@@ -101,8 +107,4 @@ export const assets = {
   fourty3,
   fourty4,
   html,
-  // fourty5,
-  // fourty6,
-  // fourty7,
-  // fourty8,
 };

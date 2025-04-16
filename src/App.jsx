@@ -11,7 +11,9 @@ import Footer from "./Components/Footer/Footer";
 import Customcursor from "./Components/Customcursor/Customcursor";
 import { Route, Routes } from "react-router-dom";
 import Frontendprojects from "./Pages/Frontendprojects";
+import Skills from "./Components/Skills/Skills";
 const App = () => {
+  
   const [setprojectcategory, setsetprojectcategory] = useState(false)
   return (
     <div>
@@ -24,6 +26,8 @@ const App = () => {
       {setprojectcategory ? "": <Home />}
       {setprojectcategory ? "": <About />}
       {setprojectcategory ? "": <Services />}
+      {setprojectcategory ? "": <Skills />}
+      
       {setprojectcategory ? "": <Projects setprojectcategory={setprojectcategory}  setsetprojectcategory={setsetprojectcategory} />}
       {setprojectcategory ? <Frontendprojects />: ""}
       {setprojectcategory ? "": <Contact />}
