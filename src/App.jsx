@@ -25,8 +25,8 @@ const App = () => {
       </Routes> */}
       {setprojectcategory ? "": <Home />}
       {setprojectcategory ? "": <About />}
-      {setprojectcategory ? "": <Services />}
       {setprojectcategory ? "": <Skills />}
+      {setprojectcategory ? "": <Services />}
       
       {setprojectcategory ? "": <Projects setprojectcategory={setprojectcategory}  setsetprojectcategory={setsetprojectcategory} />}
       {setprojectcategory ? <Frontendprojects />: ""}

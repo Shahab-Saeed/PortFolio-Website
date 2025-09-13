@@ -1,7 +1,7 @@
 .slider-container {
     width: 100%;
     max-width: 1200px; /* controls how wide the slider can be */
-    padding: 0 20px;
+    padding: 0px 20px;
     box-sizing: border-box;
   }
   .slider-container .slick-slider {
@@ -21,6 +21,7 @@
   min-height: 50vh;
   /* background: #f8f8f8; optional */
   padding: 20px;
+  padding-top: 50px;
   box-sizing: border-box;
 }
 

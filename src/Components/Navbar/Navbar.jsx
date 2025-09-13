@@ -29,9 +29,9 @@ const Navbar = (props) => {
       <nav className={`navbar ${toggle ? "open" : ""}`}>
         <a href="#home" onClick={()=>{props.setsetprojectcategory(false)}}>Home</a>
         <a href="#about" onClick={()=>{props.setsetprojectcategory(false)}}>About</a>
+        <a href="#skills" onClick={()=>{props.setsetprojectcategory(false)}}>Skills</a>
         <a href="#services" onClick={()=>{props.setsetprojectcategory(false)}}>Services</a>
         <a href="#projects" onClick={()=>{props.setsetprojectcategory(false)}}>Projects</a>
-        <a href="#skills" onClick={()=>{props.setsetprojectcategory(false)}}>Skills</a>
       </nav>
 
       <a href="#contact" className="gradientbtn" onClick={()=>{props.setsetprojectcategory(false)}}>Contact Me</a> 
