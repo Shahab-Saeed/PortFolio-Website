@@ -1,8 +1,13 @@
-import React from "react";
 import "./Frontendprojects.css";
 import Project1 from "../Components/Projects/Project1";
+import React, { useEffect } from "react";
+
 import { assets } from "../assets/Assets";
 const Frontendprojects = () => {
+  useEffect(() => {
+    // Scroll to top when this page loads
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="frontendprojects">
       <h1>Front End Projects</h1>
@@ -385,32 +390,6 @@ const Frontendprojects = () => {
           projectlink="https://beatsia.netlify.app"
         />
 
-        <Project1
-          profile_pic={assets.fourty6}
-          projectname={"Music App"}
-          projectdetail={
-            "Hy! I have created this Music App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
-          }
-          projectlink="https://beatsia.netlify.app"
-        />
-
-        <Project1
-          profile_pic={assets.fourty7}
-          projectname={"Music App"}
-          projectdetail={
-            "Hy! I have created this Music App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
-          }
-          projectlink="https://beatsia.netlify.app"
-        />
-
-        <Project1
-          profile_pic={assets.fourty8}
-          projectname={"Music App"}
-          projectdetail={
-            "Hy! I have created this Music App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
-          }
-          projectlink="https://beatsia.netlify.app"
-        />
       </div>
     </div>
   );

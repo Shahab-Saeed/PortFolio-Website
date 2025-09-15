@@ -45,6 +45,7 @@ import fourty1 from "../assets/fourty1.png";
 import fourty2 from "../assets/fourty2.png";
 import fourty3 from "../assets/fourty3.png";
 import fourty4 from "../assets/fourty4.png";
+import fourty5 from "../assets/fourty4.png";
 import html from "../assets/download (1).png";
 import python from "../assets/download (2).png";
 
