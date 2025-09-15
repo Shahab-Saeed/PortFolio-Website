@@ -18,7 +18,7 @@ const Projects = (props) => {
             <Projectscategory
               heading={"FRONT END PROJECTS"}
               para={
-                "Madeup of HTML, CSS, JS, Bootstrap, Tailwind CSS, Material UI, GSAP, REACT, Next.js"
+                "Madeup of Next.js, REACT, GSAP, Material UI, Tailwind CSS, Bootstrap, JS, CSS, HTML"
               }
             />
           </div>
