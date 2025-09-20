@@ -122,15 +122,7 @@ const Frontendprojects = () => {
           projectlink="https://getyourqrcodenow.netlify.app"
         />
 
-        {/* Weather App */}
-        <Project1
-          profile_pic={assets.thirty7}
-          projectname={"Weather App"}
-          projectdetail={
-            "Hy! I have created this Weather App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
-          }
-          projectlink="https://le-temps.netlify.app"
-        />
+      
 
         {/* Moripon App */}
         <Project1
@@ -170,6 +162,27 @@ const Frontendprojects = () => {
             "Hy! I have created this Grocify Store App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
           }
           projectlink="https://ssgrocifyclone.netlify.app"
+        />
+
+
+          {/* Weather App */}
+        <Project1
+          profile_pic={assets.thirty7}
+          projectname={"Weather App"}
+          projectdetail={
+            "Hy! I have created this Weather App  using HTML, CSS and JS it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
+          }
+          projectlink="https://le-temps.netlify.app"
+        />
+
+          {/* Weather App */}
+        <Project1
+          profile_pic={assets.shoecard}
+          projectname={"Shoe Product Card"}
+          projectdetail={
+            "Hy! I have created this Shoe Product Card App  using REACT , Tailwind and Vite it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
+          }
+          projectlink="https://shoe-produuct-card.netlify.app"
         />
 
         {/* Facebook Login Page Clone App */}

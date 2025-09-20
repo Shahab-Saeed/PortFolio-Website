@@ -64,6 +64,10 @@ import mysqlicon from "../assets/mysql.png"
 import postgreicon from "../assets/postgresql.png"
 import materialuilogo from "../assets/material-ui-logo-black-and-white.png"
 import giticon from "../assets/github.jpg"
+import shoecard from "../assets/39.png"
+
+
+
 export const assets = {javasvg,jsicon,bootstrapicon,cssicon,tailwindicon,gsapicon,mongodbicon,mysqlicon,postgreicon,materialuilogo,
   menu_icon,giticon,python,react,swiper,reactslick,
   github_icon,
@@ -113,4 +117,5 @@ export const assets = {javasvg,jsicon,bootstrapicon,cssicon,tailwindicon,gsapico
   fourty3,
   fourty4,
   html,
+  shoecard,
 };
