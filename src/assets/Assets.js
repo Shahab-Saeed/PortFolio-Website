@@ -65,11 +65,13 @@ import postgreicon from "../assets/postgresql.png"
 import materialuilogo from "../assets/material-ui-logo-black-and-white.png"
 import giticon from "../assets/github.jpg"
 import shoecard from "../assets/39.png"
+import Realestateimg from "../assets/Real Estate.png"
+import Burgir from "../assets/Burger.png"
 
 
 
 export const assets = {javasvg,jsicon,bootstrapicon,cssicon,tailwindicon,gsapicon,mongodbicon,mysqlicon,postgreicon,materialuilogo,
-  menu_icon,giticon,python,react,swiper,reactslick,
+  menu_icon,giticon,python,react,swiper,reactslick,Realestateimg,Burgir,
   github_icon,
   instagram_icon,
   linkedin_icon,

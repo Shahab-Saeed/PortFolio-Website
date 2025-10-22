@@ -12,6 +12,29 @@ const Frontendprojects = () => {
     <div className="frontendprojects">
       <h1>Front End Projects</h1>
       <div className="projects-box">
+
+         {/* Burger  App */}
+        <Project1
+          profile_pic={assets.Burgir}
+          projectname={"Burgir App"}
+          projectdetail={
+            "Hy! I have created this Burger App  using React js, it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
+          }
+          projectlink="https://strong-biscotti-754eab.netlify.app"
+        />
+
+
+        {/* Real Estate  App */}
+        <Project1
+          profile_pic={assets.Realestateimg}
+          projectname={"Real Estate App"}
+          projectdetail={
+            "Hy! I have created this Real Estate App  using React js, it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
+          }
+          projectlink="https://doduestate.netlify.app"
+        />
+
+
         {/* Edusity App */}
         <Project1
           profile_pic={assets.nine}
