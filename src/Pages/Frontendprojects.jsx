@@ -13,6 +13,15 @@ const Frontendprojects = () => {
       <h1>Front End Projects</h1>
       <div className="projects-box">
 
+         {/* Business  App */}
+        <Project1
+          profile_pic={assets.Burgir}
+          projectname={"Business App"}
+          projectdetail={
+            "Hy! I have created this Business Application using React js + Tailwind, it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
+          }
+          projectlink="https://wonderful-strudel-ffc22a.netlify.app"
+        />
          {/* Burger  App */}
         <Project1
           profile_pic={assets.Burgir}

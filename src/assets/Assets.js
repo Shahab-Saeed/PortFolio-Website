@@ -57,7 +57,7 @@ import tailwindicon from "../assets/download.png"
 import react from "../assets/react.png"
 import swiper from "../assets/social.png"
 import reactslick from "../assets/slick.png"
-
+import BusinessAppImg from "../assets/Business Web.png"
 import gsapicon from "../assets/gsap.png"
 import mongodbicon from "../assets/mongodb.png"
 import mysqlicon from "../assets/mysql.png"
@@ -71,7 +71,7 @@ import Burgir from "../assets/Burger.png"
 
 
 export const assets = {javasvg,jsicon,bootstrapicon,cssicon,tailwindicon,gsapicon,mongodbicon,mysqlicon,postgreicon,materialuilogo,
-  menu_icon,giticon,python,react,swiper,reactslick,Realestateimg,Burgir,
+  menu_icon,giticon,python,react,swiper,reactslick,Realestateimg,Burgir,BusinessAppImg,
   github_icon,
   instagram_icon,
   linkedin_icon,
