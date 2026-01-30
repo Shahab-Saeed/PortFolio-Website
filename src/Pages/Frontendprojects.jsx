@@ -15,7 +15,7 @@ const Frontendprojects = () => {
 
          {/* Business  App */}
         <Project1
-          profile_pic={assets.Burgir}
+          profile_pic={assets.BusinessAppImg}
           projectname={"Business App"}
           projectdetail={
             "Hy! I have created this Business Application using React js + Tailwind, it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
