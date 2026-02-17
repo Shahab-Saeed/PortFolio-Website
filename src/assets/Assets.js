@@ -67,12 +67,18 @@ import giticon from "../assets/github.jpg"
 import shoecard from "../assets/39.png"
 import Realestateimg from "../assets/Real Estate.png"
 import Burgir from "../assets/Burger.png"
+import ShoeSellingApp from "../assets/40.png"
+import SSConsultingAgency from "../assets/41.png"
+import SSEcommerce from "../assets/42.png"
 
 
 
 export const assets = {javasvg,jsicon,bootstrapicon,cssicon,tailwindicon,gsapicon,mongodbicon,mysqlicon,postgreicon,materialuilogo,
   menu_icon,giticon,python,react,swiper,reactslick,Realestateimg,Burgir,BusinessAppImg,
   github_icon,
+  SSEcommerce,
+  ShoeSellingApp,
+  SSConsultingAgency,
   instagram_icon,
   linkedin_icon,
   twitter_icon,

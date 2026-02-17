@@ -13,7 +13,37 @@ const Frontendprojects = () => {
       <h1>Front End Projects</h1>
       <div className="projects-box">
 
-         {/* Business  App */}
+      {/* SS COnsulting App */}
+        <Project1
+          profile_pic={assets.SSEcommerce}
+          projectname={"SS"}
+          projectdetail={
+            "Hy! I have created this Business Application using Next js + Tailwind, it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
+          }
+          projectlink="https://ecommerce-app-1xlw.vercel.app"
+        />
+
+        {/* SS COnsulting App */}
+        <Project1
+          profile_pic={assets.SSConsultingAgency}
+          projectname={"SS Consulting Agency"}
+          projectdetail={
+            "Hy! I have created this Business Application using Next js + Tailwind, it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
+          }
+          projectlink="https://ss-agency.netlify.app"
+        />
+
+        {/* Shoe  App */}
+        <Project1
+          profile_pic={assets.ShoeSellingApp}
+          projectname={"Shoes Selling App"}
+          projectdetail={
+            "Hy! I have created this Business Application using Next js + Tailwind, it's portable you can also use it in your projects which helps you to use it's functionality and become a scalable Front End Developer"
+          }
+          projectlink="https://shoe-website-delta.vercel.app"
+        />
+
+        {/* Business  App */}
         <Project1
           profile_pic={assets.BusinessAppImg}
           projectname={"Business App"}
@@ -22,7 +52,8 @@ const Frontendprojects = () => {
           }
           projectlink="https://wonderful-strudel-ffc22a.netlify.app"
         />
-         {/* Burger  App */}
+
+        {/* Burger  App */}
         <Project1
           profile_pic={assets.Burgir}
           projectname={"Burgir App"}
@@ -31,7 +62,6 @@ const Frontendprojects = () => {
           }
           projectlink="https://strong-biscotti-754eab.netlify.app"
         />
-
 
         {/* Real Estate  App */}
         <Project1
@@ -42,7 +72,6 @@ const Frontendprojects = () => {
           }
           projectlink="https://doduestate.netlify.app"
         />
-
 
         {/* Edusity App */}
         <Project1
@@ -154,8 +183,6 @@ const Frontendprojects = () => {
           projectlink="https://getyourqrcodenow.netlify.app"
         />
 
-      
-
         {/* Moripon App */}
         <Project1
           profile_pic={assets.thirty8}
@@ -196,8 +223,7 @@ const Frontendprojects = () => {
           projectlink="https://ssgrocifyclone.netlify.app"
         />
 
-
-          {/* Weather App */}
+        {/* Weather App */}
         <Project1
           profile_pic={assets.thirty7}
           projectname={"Weather App"}
@@ -207,7 +233,7 @@ const Frontendprojects = () => {
           projectlink="https://le-temps.netlify.app"
         />
 
-          {/* Weather App */}
+        {/* Weather App */}
         <Project1
           profile_pic={assets.shoecard}
           projectname={"Shoe Product Card"}
