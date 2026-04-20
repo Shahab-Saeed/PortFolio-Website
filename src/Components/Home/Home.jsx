@@ -15,7 +15,7 @@ const Home = () => {
             Software and<span> Web Developer</span>
           </h3>
           <p>
-          Welcome! I'm  a versatile digital creator with a passion for crafting compelling content and developing innovative web experiences. My technical expertise spans across front-end development with React and in-depth knowledge of SQL databases like MySQL and PostgreSQL for Database Administration. I have successfully built many dynamic React-based website.
+          Welcome! I'm  a versatile digital creator with a passion for crafting compelling content and developing innovative web experiences. My technical expertise spans across front-end development with React and in-depth knowledge of backend with Nodejs, Express Js, SQL databases like MySQL and PostgreSQL for Database Administration and Mongo DB. I have successfully built many dynamic Websites.
           </p>
 
           <div className="socialicons">

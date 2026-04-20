@@ -70,11 +70,12 @@ import Burgir from "../assets/Burger.png"
 import ShoeSellingApp from "../assets/40.png"
 import SSConsultingAgency from "../assets/41.png"
 import SSEcommerce from "../assets/42.png"
+import Next from "../assets/next.png"
 
 
 
 export const assets = {javasvg,jsicon,bootstrapicon,cssicon,tailwindicon,gsapicon,mongodbicon,mysqlicon,postgreicon,materialuilogo,
-  menu_icon,giticon,python,react,swiper,reactslick,Realestateimg,Burgir,BusinessAppImg,
+  menu_icon,giticon,python,react,swiper,reactslick,Realestateimg,Burgir,BusinessAppImg,Next,
   github_icon,
   SSEcommerce,
   ShoeSellingApp,
